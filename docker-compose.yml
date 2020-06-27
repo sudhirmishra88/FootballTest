@@ -1,0 +1,8 @@
+version: '4'
+
+services:
+  app:
+    build: .
+    image: FootballApi-img
+    ports:
+      - 8088:8080
